@@ -1,0 +1,22 @@
+ファイルの初期番号
+src/write_image.cppの１７行目のINIT_NUMBERの値を変更して以下を実行
+$ cd
+$ cd catkin_ws
+$ catkin_make
+
+
+実行方法
+1. roscoreを起動
+$ roscore
+
+2. bagファイルを再生
+$ rosbag play bagfine_name
+
+3. darknet_rosを起動
+$ roslaunch darknet_ros darknet_ros.launch
+
+4. write_imageを実行
+$ cd ~/cnn_data
+$ rosrun write_image  write_image
+
+以上

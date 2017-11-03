@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>write_image</name>
+  <version>0.0.0</version>
+  <description>Write image</description>
+  <maintainer email="info@demura.net">Kosei Demura</maintainer>
+  <license>BSD</license>
+  <author email="info@demura.net"> </author>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <!-- <build_depend>opencv2</build_depend> -->
+  <run_depend>roscpp</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs </run_depend>
+
+
+</package>
